@@ -30,8 +30,8 @@ test_that("basic implementation is correct", {
       height = 169,
       weight = 84,
       drinking_time = as.POSIXct(c("2016-10-03 08:10:00", "2016-10-03 08:15:00")),
-      drinks = c("schnaps" = 3)
-    ),
+      drinks = c("schnaps" = 3) 
+    ),                          
     0.687, tolerance = 0.01)
   expect_equivalent(
     tell_me_how_drunk(

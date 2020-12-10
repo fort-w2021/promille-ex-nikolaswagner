@@ -60,8 +60,44 @@ tell_me_how_drunk(
 
 tell_me_how_drunk(
   age = 17,
+  sex = "f",
+  height = 19,
+  weight = c(60, 70),
+  drinking_time = as.POSIXct(c("2016-10-03 18:15:00", "2016-10-03 22:55:00")),
+  drinks = c("schnaps" = 3)
+)
+
+tell_me_how_drunk(
+  age = 17,
+  sex = "f",
+  height = 190,
+  weight = c(60, 70),
+  drinking_time = as.POSIXct(c("2016-10-03 18:15:00", "2016-10-03 22:55:00")),
+  drinks = c("schnaps" = 3)
+)
+
+tell_me_how_drunk(
+  age = 17,
   sex = "unicorn",
   height = -19,
+  weight = "fat",
+  drinking_time = as.POSIXct(c("2016-10-03 18:15:00", "2016-10-03 22:55:00")),
+  drinks = c("schnaps" = 3)
+)
+
+tell_me_how_drunk(
+  age = 17,
+  sex = "m",
+  height = -19,
+  weight = "fat",
+  drinking_time = as.POSIXct(c("2016-10-03 18:15:00", "2016-10-03 22:55:00")),
+  drinks = c("schnaps" = 3)
+)
+
+tell_me_how_drunk(
+  age = 17,
+  sex = "m",
+  height = 195,
   weight = "fat",
   drinking_time = as.POSIXct(c("2016-10-03 18:15:00", "2016-10-03 22:55:00")),
   drinks = c("schnaps" = 3)
@@ -83,7 +119,7 @@ tell_me_how_drunk(
   weight = 54,
   drinking_time = as.POSIXct(c("2016-10-03 21:00:00", "2016-10-03 14:00:00")),
   drinks = c("massn" = 4)
-)
+) 
 
 
 tell_me_how_drunk(
